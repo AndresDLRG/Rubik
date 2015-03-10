@@ -1,0 +1,58 @@
+img{
+	height: 100%;
+	width: 100%;
+	display: block;
+}
+
+button, textarea {
+	text-align: center;
+	width: 160px;
+	height: 40px;
+	position: absolute;
+	display: inline-block;
+}
+
+button, p{
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	position: absolute;
+}
+
+input {
+	position: absolute;
+}
+select {
+	position: absolute;
+	width: 50px;
+	display: inline-block;
+	text-align: center;
+	
+}
+
+td{
+	height: 30px;
+	width: 30px;
+	padding: 0;
+	font-size: 25px;
+	cursor: default;
+}
+
+div{
+	position: absolute;
+	outline: 2px solid black;
+	height: 94px;
+	width: 94px;	
+}
+
+table{
+	text-align: center;
+	font-weight: bold;
+	border-collapse: collapse;
+	background: gray;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
